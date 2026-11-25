@@ -1,0 +1,30 @@
+[tool.uv]
+# Configuration for UV if needed
+
+[tool.pydantic]
+# Pydantic configuration if needed
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
+[project]
+name = "weather-proxy"
+version = "0.1.0"
+description = "A proxy service for weather data."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "httpx",
+]
+
+[dependency-groups]
+dev = ["ruff"]
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"

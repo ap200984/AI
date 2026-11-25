@@ -1,0 +1,8 @@
+README.md
+main.py
+pyproject.toml
+weather_proxy.egg-info/PKG-INFO
+weather_proxy.egg-info/SOURCES.txt
+weather_proxy.egg-info/dependency_links.txt
+weather_proxy.egg-info/requires.txt
+weather_proxy.egg-info/top_level.txt

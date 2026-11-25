@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: weather-proxy
+Version: 0.1.0
+Summary: A proxy service for weather data.
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: httpx
+
+# Weather Proxy Service
+
+This project provides a proxy service for fetching weather data.
+
+## Technologies Used
+- Python 3.12
+- FastAPI
+- httpx
+
+## Installation and Setup
+
+1. **Install dependencies:**
+   ```bash
+   uv sync
+   ```
+2. **Run the application:**
+   ```bash
+   uvicorn main:app --host 0.0.0.0 --port 8000
+   ```
+
+## Development
+To run development tools (like Ruff):

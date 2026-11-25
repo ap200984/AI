@@ -1,0 +1,4 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "ollama/mimo-v2.6:9b-32k"
+}
